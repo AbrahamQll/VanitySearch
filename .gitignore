@@ -1,0 +1,58 @@
+# ==========================================
+# CudaBTCGen Git Ignore
+# ==========================================
+
+# --- Visual Studio Workspace & User Files ---
+.vs/
+ipch/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.db
+*.opendb
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# --- Build Outputs ---
+Debug/
+Release/
+x64/
+x86/
+build/
+bin/
+obj/
+
+# --- Compiled Binaries & Linker Files ---
+*.exe
+*.dll
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.obj
+*.o
+*.iobj
+*.ipdb
+
+# --- NVIDIA CUDA Compilation Artifacts ---
+*.cubin
+*.ptx
+*.gpu
+*.lib
+device-link.obj
+
+# --- MSBuild Diagnostics & PG-Optimization ---
+*.tlog
+*.lastbuildstate
+*.recipe
+*.pgd
+*.pgc
+
+# --- Local Databases & Sensitive Search Hits ---
+# Keeping these ignored prevents committing recovered keys or massive targets to Git
+database.txt
+patterns.txt
+found.txt
+hits.txt
