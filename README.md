@@ -1,6 +1,6 @@
 # VanitySearch
 
-`VanitySearch` is a high-performance utility designed to generate private keys, derive corresponding elliptic curve public keys, and search for target matches against a database of addresses or partial patterns. The application features a dual-engine architecture: a massively parallel GPU-accelerated engine using CUDA, and a multi-threaded CPU-only fallback engine.
+`VanitySearch` is a high-performance utility (windows based which could be ported to Linux) designed to generate private keys, derive corresponding elliptic curve public keys, and search for target matches against a database of addresses or partial patterns. The application features a dual-engine architecture: a massively parallel GPU-accelerated engine using CUDA, and a multi-threaded CPU-only fallback engine.
 
 ---
 
