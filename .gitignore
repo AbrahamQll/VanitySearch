@@ -56,3 +56,5 @@ database.txt
 patterns.txt
 found.txt
 hits.txt
+/.history
+.history
