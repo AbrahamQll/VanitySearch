@@ -55,7 +55,6 @@
     </Link>
     <CudaCompile>
       <TargetMachinePlatform>64</TargetMachinePlatform>
-      <!-- Targeted directly at your Blackwell RTX 5060 Ti GPU for debugging -->
       <CodeGeneration>compute_120,sm_120</CodeGeneration>
       <RuntimeInfo>true</RuntimeInfo>
     </CudaCompile>
@@ -78,7 +77,6 @@
     </Link>
     <CudaCompile>
       <TargetMachinePlatform>64</TargetMachinePlatform>
-      <!-- Optimized for Blackwell architecture (sm_120) with O3 optimization and FastMath enabled -->
       <CodeGeneration>compute_120,sm_120</CodeGeneration>
       <Optimization>O2</Optimization>
       <FastMath>true</FastMath>
